@@ -9,7 +9,9 @@
     "@wdio/mocha-framework": "^9.15.0",
     "@wdio/spec-reporter": "^9.15.0",
     "allure-commandline": "^2.34.0",
-    "appium-uiautomator2-driver": "^4.2.3"
+    "appium-uiautomator2-driver": "^4.2.3",
+    "eslint": "^9.29.0",
+    "eslint-plugin-wdio": "^9.16.2"
   },
   "dependencies": {
     "appium": "^2.19.0"

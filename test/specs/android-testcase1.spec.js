@@ -1,9 +1,10 @@
-import FormPage from '../pageobjects/form.page.js';
-import ProductPage from '../pageobjects/product.page.js';
-import CartPage from '../pageobjects/cart.page.js';
+import FormPage from '../screenobjects/form.page.js';
+import ProductPage from '../screenobjects/product.page.js';
+import CartPage from '../screenobjects/cart.page.js';
+import { $, $$, expect, driver } from "@wdio/globals";
 
 describe('Ecommerce App Tests', () => {
-    it('verifies toast message for missing name', async () => {
+    ('verifies toast message for missing name', async () => {
         await expect(FormPage.title).toHaveText('General Store');
         await FormPage.femaleRadioBtn.click();
         await FormPage.countryDropdown.click();
