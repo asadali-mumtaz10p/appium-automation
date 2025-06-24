@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12673","selects a product and adds it to cart","","Tue Jun 24 12:40:59 PKT 2025","passed","Tue Jun 24 12:41:11 PKT 2025","","Ecommerce App Tests","",""
+"","22427","verifies toast message for missing name","","Tue Jun 24 12:40:31 PKT 2025","passed","Tue Jun 24 12:40:54 PKT 2025","","Ecommerce App Tests","",""
+"","4758","fills the form details for shopping","","Tue Jun 24 12:40:54 PKT 2025","passed","Tue Jun 24 12:40:59 PKT 2025","","Ecommerce App Tests","",""
