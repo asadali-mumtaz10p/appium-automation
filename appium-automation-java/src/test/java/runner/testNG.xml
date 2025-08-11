@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APPIUM TEST SUITE" verbose="1">
+<test name="Login to Sauce Demo App">
+    <parameter name="platformName" value="Android"/>
+    <parameter name="platformVersion" value="16"/>
+    <parameter name="deviceName" value="Pixel"/>
+    <classes>
+        <class name="specs.Login"/>
+    </classes>
+</test>
+</suite>
